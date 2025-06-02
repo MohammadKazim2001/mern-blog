@@ -40,7 +40,10 @@ const Header = () => {
           <FaMoon />
         </Button>
         <Link to="/sign-in">
-          <Button className="bg-gradient-to-r from-purple-500 to-blue-500 text-white">
+          <Button
+            className="hover:bg-gradient-to-r from-purple-500 to-blue-500 hove:text-white duration-500"
+            outline
+          >
             Sign In
           </Button>
         </Link>
