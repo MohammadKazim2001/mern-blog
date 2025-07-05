@@ -53,6 +53,7 @@ const Header = () => {
         <NavbarLink as={Link} to="/" active={path === "/"}>
           Home
         </NavbarLink>
+
         <NavbarLink as={Link} to="/about" active={path === "/about"}>
           About
         </NavbarLink>
