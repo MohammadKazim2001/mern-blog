@@ -39,7 +39,7 @@ const Header = () => {
         <Button className="w-12 h-10 hidden sm:inline" color="gray" pill>
           <FaMoon />
         </Button>
-        <Link to="/sign-in">
+        <Link to="/sign-up">
           <Button
             className="hover:bg-gradient-to-r from-purple-500 to-blue-500 hove:text-white duration-500"
             outline
